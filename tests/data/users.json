@@ -1,0 +1,23 @@
+{  
+    "standard_user": {  
+        "username": "standard_user",   
+        "password": "secret_sauce",
+        "name": "standard",
+        "lastname": "user",
+        "postal_code": "90210"
+    },
+    "locked_out_user": {  
+        "username": "locked_out_user",   
+        "password": "secret_sauce",
+        "name": "locked",
+        "lastname": "out",
+        "postal_code": "90210"
+    },
+    "problem_user": {  
+        "username": "problem_user",   
+        "password": "secret_sauce",
+        "name": "problem",
+        "lastname": "user",
+        "postal_code": "90210"
+    }
+}  

@@ -1,4 +1,5 @@
 import { expect, type Locator, type Page } from '@playwright/test';
+import users from "../data/users.json"
 
 export class LoginPage {
   readonly page: Page;
@@ -25,5 +26,11 @@ export class LoginPage {
     await this.passwordInput.fill(password);
     await this.loginBtn.click();
     
+  }
+  
+  async loginStdUser() {
+      console.log("std user" + users.standard_user.username);
+      await this.login(users.standard_user.username, users.standard_user.password)
+
   }
 }
